@@ -2,10 +2,10 @@
 ## intent:hello
 - salut
 - bonjour
-- ça va
 - hey
 - hello
 - coucou
+- yo
 
 ## intent:search_dataset
 - statistiques de [la ville de paris](organization)
@@ -17,6 +17,26 @@
 - je veux des données
 - [vigicrue](topic) 2018
 - base [SIRENE](topic)
+
+## intent:confirm
+- oui
+- ouais
+- ouaip
+- ui
+- hum oui
+- hmm ui
+- ok
+- c'est ça
+- yes
+
+## intent:deny
+- non
+- pas du tout
+- nope
+- oui mais non
+- hm non
+- hum non
+- no
 
 ## intent:thankyou
 - merci
