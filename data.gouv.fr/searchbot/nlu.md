@@ -54,7 +54,7 @@
 ## lookup:organization
 organisations.txt
 
-## lookup:dataset
+## lookup:topic
 datasets.txt
 
 ## regex:year
