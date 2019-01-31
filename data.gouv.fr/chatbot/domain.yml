@@ -1,0 +1,10 @@
+
+intents:
+- search_dataset
+
+actions:
+- utter_greet
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
