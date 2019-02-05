@@ -1,0 +1,181 @@
+JB | Jean-Baptiste
+<3 | Mathilde Bras
+Som | Sophie
+ARN | Arnaud
+B | Bastien
+VK | Victor
+AA | Antoine
+O | Romain
+T | Théophile
+X | Christian
+Ohm | Bertrand
+V | Olivier
+Sd | Sandra
+TK | TK
+Phi | Périca
+Chapo | Pavel
+:l | Marion
+Pi | Soizic
+} | Paul-Antoine
+Gab | Gabrièle
+H | Mathilde H
+Cha | Timy
+lll | Alex B
+alpha | Alex D
+Tri | Hugo
+S | Simon
+Z | Axel
+Brice | Brice
+
+Evènementiel Citoyen (Hackathon, Forum…) : expert : ARN | Pi | O | <3
+Evènementiel Citoyen (Hackathon, Forum…) : interet : H | Chapo | Phi
+Evènementiel Citoyen (Hackathon, Forum…) : connait : VK
+Juridique : expert : Phi
+Juridique : interet : Som | Z | Chapo | X | Cha | Pi
+Juridique : connait : H | Gab | S | VK | O | <3
+Mobilisation de partie prenantes : expert : ARN | <3 | O | S
+Mobilisation de partie prenantes : interet : V | Som
+Mobilisation de partie prenantes : connait : JB | H
+Communication : expert : <3 | Som | S
+Communication : interet : AA | V | Gab
+Communication : connait : H | O
+Pokemon : expert : Ohm
+Pokemon : interet : <3
+Pokemon : connait : lll
+Yoga : expert : <3
+Yoga : interet : TK | Tri | alpha
+Yoga : connait : lll
+Jeu de go : interet : JB | ARN
+Jeu de go : connait : Tri | B | TK
+Street fichier, SmashBros, La Baston : connait : TK | Ohm
+Meditation : expert : Z
+Meditation : interet : V | Cha
+Meditation : connait : TK | lll | <3
+Inbox Zero : expert : B
+Inbox Zero : interet : JB | Z | alpha | Pi | X | <3 | V
+Tarot : expert : Tri | Ohm | <3 | O | Cha
+Tarot : interet : Chapo | Som | H
+Tarot : connait : JB | alpha | X | Z
+Musique (instrument) : connait : JB | Ohm | H | <3 | Chapo | Cha
+Musique (instrument) : expert : Gab | Phi | VK
+Musique (instrument) : interet : ARN | T
+Jazz/Blues : expert : Phi
+Jazz/Blues : interet : JB | alpha | Gab | Som
+Jazz/Blues : connait : Z
+Plongée : expert : Ohm
+Plongée : interet : Sd | ARN | V | alpha
+Plongée : connait : Z
+Parapente : expert : X
+Parapente : interet : JB | Sd | Cha | ARN | alpha | V
+Parapente : connait : Ohm | Z
+Theatre d’impro : expert : ARN
+Theatre d’impro : connait : B | Cha
+Theatre d’impro : interet : JB | Ohm | <3 | alpha | Phi
+Massages : expert : Tri
+Massages : interet : Cha
+Maitrise du bullshit bingo (agile, lean, design thinking) : expert : ARN
+Maitrise du bullshit bingo (agile, lean, design thinking) : connait : JB | S
+Licences : expert : Phi | Z | X
+Licences : connait : B | S
+Licences : interet : Som | :l | Sd | H | V | Pi
+Conceptualisation : expert : V
+Conceptualisation : Som : Som
+Conceptualisation : connait : S
+Contruire et faciliter des atelier : expert : Pi | ARN | JB
+Contruire et faciliter des atelier : connait : O
+DataViz : expert : TK | }
+DataViz : interet : <3 | Pi | Ohm | O | lll
+DataViz : connait : JB
+Facilitation graphique : expert : ARN
+Facilitation graphique : interet : JB | O | T
+Design : expert : JB | TK
+Design : connait : Cha | Pi
+Design : interet : ARN | } | VK | <3 | Phi | H | T | Som
+BizDev : expert : O | JB
+BizDev : interet : Phi
+Documentation : interet : Tri | alpha | B | <3
+Polémiques Twitter : expert : Brice
+Géo : expert : X
+Géo : interet : Sd
+Géo : connait : :l | Z | Ohm
+Ruby : expert : Tri | alpha
+Ruby : connait : H
+Python : expert : Z | Chapo | lll | Sd | AA | TK
+Python : interet : <3 | O | H | Pi | Som | VK | Phi | Cha | JB
+Python : connait : X | Ohm | :l
+Hadware : expert : X | Z
+Hadware : connait : Chapo
+SQL : expert : X | AA
+SQL : interet : H | Som
+SQL : connait : Z
+BASH : expert : X | Z | Ohm
+BASH : connait : Tri | Sd | B
+BASH : interet : alpha | :l
+INFRA : expert : X | Z
+INFRA : interet : alpha | Sd
+WebSemantique : expert : Z
+WebSemantique : interet : JB
+React : expert : Ohm | T
+React : interet : Pi | Sd
+Vue.js : expert : Z
+Velo : expert : lll
+Velo : connait : H | Z | <3 | JB
+Foot : expert : ARN
+Foot : connait : JB | H
+R : expert : } | :l
+R : interet : JB | VK | TK
+EMACS : expert : B
+EMACS : connait : Ohm | Sd | Chapo
+Rando : expert : B
+Rando : interet : V
+Rando : connait : alpha | lll | Chapo | H | Som | <3
+Dessin : expert : Som
+Dessin : connait : Cha
+Dessin : interet : ARN
+Salsa Cumbia : connait : Ohm
+Patisserie : expert : Sd | :l | X | Gab
+Patisserie : interet : Chapo | JB
+Patisserie : connait : Som
+Cinema : expert : Phi
+Cinema : connait : Gab | O | Z | H | VK | <3 | X
+Espagnol : expert : Som
+Cuisine : expert : :l
+Cuisine : interet : B | V | Phi
+Cuisine : connait : JB | Ohm | X | Chapo | Gab | Tri | H | Cha | lll | Som | alpha | <3
+Geopolitique : expert : Phi
+Geopolitique : interet : JB | Z
+Geopolitique : connait : <3
+Painball : expert : T
+Painball : connait : Z
+Collapsologie : expert : JB
+Collapsologie : interet : ARN
+Collapsologie : connait : Tri | <3
+Les bases du sruvivalisme : interet : Tri
+Les bases du survivalisme : connait : Z
+Secret Hitler (jeu) : interet : ARN
+Secret Hitler (jeu) : connait : Cha
+Fasciste (blague) : interet : ARN
+WebPack : expert : Z | Ohm
+NLP : expert : Chapo
+NLP : interet : Ohm | } | lll | TK | Sd
+GIT : expert : Z | Ohm
+GIT : connait : Sd | alpha | <3 | TK
+GIT : interet : Som
+TROLL : expert : Pi | alpha | Tri | TK | lll
+TROLL : connait : JB | S
+Datascience / Machine learning : expert : Chapo | :l
+Datascience / Machine learning : interet : O | lll | Z | Sd | Z | <3 | V | VK
+Ansible : expert : Z
+Docker : expert : Ohm | Z
+Escalade : expert : ARN | Z | JB | alpha
+Permaculture : expert : JB
+Permaculture : interet : Tri | lll | } | ARN | Cha | Som
+Triathlon : expert : JB
+Vi(M) : connait : Tri | alpha | lll | TK | Sd | Z
+Pitcher : expert : S
+Pitcher : connait : O | Som
+Pitcher : interet : <3 | Phi | H
+Administration : expert : <3
+Administration : interet : Sd
+Etalab : expert : Phi | Z | } | <3 | S | O
+Etalab : interet : JB | ARN | H | V

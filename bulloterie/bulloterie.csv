@@ -1,0 +1,374 @@
+intérêt,niveau,individu
+"Evènementiel Citoyen (Hackathon, Forum…)",expert,ARN
+"Evènementiel Citoyen (Hackathon, Forum…)",expert,Pi
+"Evènementiel Citoyen (Hackathon, Forum…)",expert,O
+"Evènementiel Citoyen (Hackathon, Forum…)",expert,<3
+"Evènementiel Citoyen (Hackathon, Forum…)",interet,H
+"Evènementiel Citoyen (Hackathon, Forum…)",interet,Chapo
+"Evènementiel Citoyen (Hackathon, Forum…)",interet,Phi
+"Evènementiel Citoyen (Hackathon, Forum…)",connait,VK
+Juridique,expert,Phi
+Juridique,interet,Som
+Juridique,interet,Z
+Juridique,interet,Chapo
+Juridique,interet,X
+Juridique,interet,Cha
+Juridique,interet,Pi
+Juridique,connait,H
+Juridique,connait,Gab
+Juridique,connait,S
+Juridique,connait,VK
+Juridique,connait,O
+Juridique,connait,<3
+Mobilisation de partie prenantes,expert,ARN
+Mobilisation de partie prenantes,expert,<3
+Mobilisation de partie prenantes,expert,O
+Mobilisation de partie prenantes,expert,S
+Mobilisation de partie prenantes,interet,V
+Mobilisation de partie prenantes,interet,Som
+Mobilisation de partie prenantes,connait,JB
+Mobilisation de partie prenantes,connait,H
+Communication,expert,<3
+Communication,expert,Som
+Communication,expert,S
+Communication,interet,AA
+Communication,interet,V
+Communication,interet,Gab
+Communication,connait,H
+Communication,connait,O
+Pokemon,expert,Ohm
+Pokemon,interet,<3
+Pokemon,connait,lll
+Yoga,expert,<3
+Yoga,interet,TK
+Yoga,interet,Tri
+Yoga,interet,alpha
+Yoga,connait,lll
+Jeu de go,interet,JB
+Jeu de go,interet,ARN
+Jeu de go,connait,Tri
+Jeu de go,connait,B
+Jeu de go,connait,TK
+"Street fichier, SmashBros, La Baston",connait,TK
+"Street fichier, SmashBros, La Baston",connait,Ohm
+Meditation,expert,Z
+Meditation,interet,V
+Meditation,interet,Cha
+Meditation,connait,TK
+Meditation,connait,lll
+Meditation,connait,<3
+Inbox Zero,expert,B
+Inbox Zero,interet,JB
+Inbox Zero,interet,Z
+Inbox Zero,interet,alpha
+Inbox Zero,interet,Pi
+Inbox Zero,interet,X
+Inbox Zero,interet,<3
+Inbox Zero,interet,V
+Tarot,expert,Tri
+Tarot,expert,Ohm
+Tarot,expert,<3
+Tarot,expert,O
+Tarot,expert,Cha
+Tarot,interet,Chapo
+Tarot,interet,Som
+Tarot,interet,H
+Tarot,connait,JB
+Tarot,connait,alpha
+Tarot,connait,X
+Tarot,connait,Z
+Musique (instrument),connait,JB
+Musique (instrument),connait,Ohm
+Musique (instrument),connait,H
+Musique (instrument),connait,<3
+Musique (instrument),connait,Chapo
+Musique (instrument),connait,Cha
+Musique (instrument),expert,Gab
+Musique (instrument),expert,Phi
+Musique (instrument),expert,VK
+Musique (instrument),interet,ARN
+Musique (instrument),interet,T
+Jazz/Blues,expert,Phi
+Jazz/Blues,interet,JB
+Jazz/Blues,interet,alpha
+Jazz/Blues,interet,Gab
+Jazz/Blues,interet,Som
+Jazz/Blues,connait,Z
+Plongée,expert,Ohm
+Plongée,interet,Sd
+Plongée,interet,ARN
+Plongée,interet,V
+Plongée,interet,alpha
+Plongée,connait,Z
+Parapente,expert,X
+Parapente,interet,JB
+Parapente,interet,Sd
+Parapente,interet,Cha
+Parapente,interet,ARN
+Parapente,interet,alpha
+Parapente,interet,V
+Parapente,connait,Ohm
+Parapente,connait,Z
+Theatre d’impro,expert,ARN
+Theatre d’impro,connait,B
+Theatre d’impro,connait,Cha
+Theatre d’impro,interet,JB
+Theatre d’impro,interet,Ohm
+Theatre d’impro,interet,<3
+Theatre d’impro,interet,alpha
+Theatre d’impro,interet,Phi
+Massages,expert,Tri
+Massages,interet,Cha
+"Maitrise du bullshit bingo (agile, lean, design thinking)",expert,ARN
+"Maitrise du bullshit bingo (agile, lean, design thinking)",connait,JB
+"Maitrise du bullshit bingo (agile, lean, design thinking)",connait,S
+Licences,expert,Phi
+Licences,expert,Z
+Licences,expert,X
+Licences,connait,B
+Licences,connait,S
+Licences,interet,Som
+Licences,interet,:l
+Licences,interet,Sd
+Licences,interet,H
+Licences,interet,V
+Licences,interet,Pi
+Conceptualisation,expert,V
+Conceptualisation,Som,Som
+Conceptualisation,connait,S
+Contruire et faciliter des atelier,expert,Pi
+Contruire et faciliter des atelier,expert,ARN
+Contruire et faciliter des atelier,expert,JB
+Contruire et faciliter des atelier,connait,O
+DataViz,expert,TK
+DataViz,expert,}
+DataViz,interet,<3
+DataViz,interet,Pi
+DataViz,interet,Ohm
+DataViz,interet,O
+DataViz,interet,lll
+DataViz,connait,JB
+Facilitation graphique,expert,ARN
+Facilitation graphique,interet,JB
+Facilitation graphique,interet,O
+Facilitation graphique,interet,T
+Design,expert,JB
+Design,expert,TK
+Design,connait,Cha
+Design,connait,Pi
+Design,interet,ARN
+Design,interet,}
+Design,interet,VK
+Design,interet,<3
+Design,interet,Phi
+Design,interet,H
+Design,interet,T
+Design,interet,Som
+BizDev,expert,O
+BizDev,expert,JB
+BizDev,interet,Phi
+Documentation,interet,Tri
+Documentation,interet,alpha
+Documentation,interet,B
+Documentation,interet,<3
+Polémiques Twitter,expert,Brice
+Géo,expert,X
+Géo,interet,Sd
+Géo,connait,:l
+Géo,connait,Z
+Géo,connait,Ohm
+Ruby,expert,Tri
+Ruby,expert,alpha
+Ruby,connait,H
+Python,expert,Z
+Python,expert,Chapo
+Python,expert,lll
+Python,expert,Sd
+Python,expert,AA
+Python,expert,TK
+Python,interet,<3
+Python,interet,O
+Python,interet,H
+Python,interet,Pi
+Python,interet,Som
+Python,interet,VK
+Python,interet,Phi
+Python,interet,Cha
+Python,interet,JB
+Python,connait,X
+Python,connait,Ohm
+Python,connait,:l
+Hadware,expert,X
+Hadware,expert,Z
+Hadware,connait,Chapo
+SQL,expert,X
+SQL,expert,AA
+SQL,interet,H
+SQL,interet,Som
+SQL,connait,Z
+BASH,expert,X
+BASH,expert,Z
+BASH,expert,Ohm
+BASH,connait,Tri
+BASH,connait,Sd
+BASH,connait,B
+BASH,interet,alpha
+BASH,interet,:l
+INFRA,expert,X
+INFRA,expert,Z
+INFRA,interet,alpha
+INFRA,interet,Sd
+WebSemantique,expert,Z
+WebSemantique,interet,JB
+React,expert,Ohm
+React,expert,T
+React,interet,Pi
+React,interet,Sd
+Vue.js,expert,Z
+Velo,expert,lll
+Velo,connait,H
+Velo,connait,Z
+Velo,connait,<3
+Velo,connait,JB
+Foot,expert,ARN
+Foot,connait,JB
+Foot,connait,H
+R,expert,}
+R,expert,:l
+R,interet,JB
+R,interet,VK
+R,interet,TK
+EMACS,expert,B
+EMACS,connait,Ohm
+EMACS,connait,Sd
+EMACS,connait,Chapo
+Rando,expert,B
+Rando,interet,V
+Rando,connait,alpha
+Rando,connait,lll
+Rando,connait,Chapo
+Rando,connait,H
+Rando,connait,Som
+Rando,connait,<3
+Dessin,expert,Som
+Dessin,connait,Cha
+Dessin,interet,ARN
+Salsa Cumbia,connait,Ohm
+Patisserie,expert,Sd
+Patisserie,expert,:l
+Patisserie,expert,X
+Patisserie,expert,Gab
+Patisserie,interet,Chapo
+Patisserie,interet,JB
+Patisserie,connait,Som
+Cinema,expert,Phi
+Cinema,connait,Gab
+Cinema,connait,O
+Cinema,connait,Z
+Cinema,connait,H
+Cinema,connait,VK
+Cinema,connait,<3
+Cinema,connait,X
+Espagnol,expert,Som
+Cuisine,expert,:l
+Cuisine,interet,B
+Cuisine,interet,V
+Cuisine,interet,Phi
+Cuisine,connait,JB
+Cuisine,connait,Ohm
+Cuisine,connait,X
+Cuisine,connait,Chapo
+Cuisine,connait,Gab
+Cuisine,connait,Tri
+Cuisine,connait,H
+Cuisine,connait,Cha
+Cuisine,connait,lll
+Cuisine,connait,Som
+Cuisine,connait,alpha
+Cuisine,connait,<3
+Geopolitique,expert,Phi
+Geopolitique,interet,JB
+Geopolitique,interet,Z
+Geopolitique,connait,<3
+Painball,expert,T
+Painball,connait,Z
+Collapsologie,expert,JB
+Collapsologie,interet,ARN
+Collapsologie,connait,Tri
+Collapsologie,connait,<3
+Les bases du sruvivalisme,interet,Tri
+Les bases du survivalisme,connait,Z
+Secret Hitler (jeu),interet,ARN
+Secret Hitler (jeu),connait,Cha
+Fasciste (blague),interet,ARN
+WebPack,expert,Z
+WebPack,expert,Ohm
+NLP,expert,Chapo
+NLP,interet,Ohm
+NLP,interet,}
+NLP,interet,lll
+NLP,interet,TK
+NLP,interet,Sd
+GIT,expert,Z
+GIT,expert,Ohm
+GIT,connait,Sd
+GIT,connait,alpha
+GIT,connait,<3
+GIT,connait,TK
+GIT,interet,Som
+TROLL,expert,Pi
+TROLL,expert,alpha
+TROLL,expert,Tri
+TROLL,expert,TK
+TROLL,expert,lll
+TROLL,connait,JB
+TROLL,connait,S
+Datascience / Machine learning,expert,Chapo
+Datascience / Machine learning,expert,:l
+Datascience / Machine learning,interet,O
+Datascience / Machine learning,interet,lll
+Datascience / Machine learning,interet,Z
+Datascience / Machine learning,interet,Sd
+Datascience / Machine learning,interet,Z
+Datascience / Machine learning,interet,<3
+Datascience / Machine learning,interet,V
+Datascience / Machine learning,interet,VK
+Ansible,expert,Z
+Docker,expert,Ohm
+Docker,expert,Z
+Escalade,expert,ARN
+Escalade,expert,Z
+Escalade,expert,JB
+Escalade,expert,alpha
+Permaculture,expert,JB
+Permaculture,interet,Tri
+Permaculture,interet,lll
+Permaculture,interet,}
+Permaculture,interet,ARN
+Permaculture,interet,Cha
+Permaculture,interet,Som
+Triathlon,expert,JB
+Vi(M),connait,Tri
+Vi(M),connait,alpha
+Vi(M),connait,lll
+Vi(M),connait,TK
+Vi(M),connait,Sd
+Vi(M),connait,Z
+Pitcher,expert,S
+Pitcher,connait,O
+Pitcher,connait,Som
+Pitcher,interet,<3
+Pitcher,interet,Phi
+Pitcher,interet,H
+Administration,expert,<3
+Administration,interet,Sd
+Etalab,expert,Phi
+Etalab,expert,Z
+Etalab,expert,}
+Etalab,expert,<3
+Etalab,expert,S
+Etalab,expert,O
+Etalab,interet,JB
+Etalab,interet,ARN
+Etalab,interet,H
+Etalab,interet,V
