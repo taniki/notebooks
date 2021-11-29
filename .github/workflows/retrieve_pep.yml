@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p pep/offers
           python pep/retrieve.py
-      - name: "hello"
+      - name: "upload artifact"
         uses: actions/upload-artifact@v2
         with:
           name: last-offers
