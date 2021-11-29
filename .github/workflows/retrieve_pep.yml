@@ -1,0 +1,30 @@
+---
+name: retrieve job offers
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scrap_save:
+    name: "retrieve and save"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - uses: "actions/checkout@v2"
+      - uses: "actions/setup-python@v2"
+        with:
+          python-version: "3.9"
+      - name: "dependencies"
+        run: |
+          pip install -r pep/requirements.txt
+      - name: "execute"
+        env:
+          PEP_INDEX: ${{secrets.PEP_INDEX}}
+        run: |
+          mkdir -p pep/offers
+          python pep/retrieve.py
+      - name: "hello"
+        uses: actions/upload-artifact@v2
+        with:
+          name: last-offers
+          path: pep/offers/latest.csv
