@@ -21,8 +21,9 @@ jobs:
         env:
           PEP_INDEX: ${{secrets.PEP_INDEX}}
         run: |
-          mkdir -p pep/offers
-          python pep/retrieve.py
+          cd pep
+          mkdir -p offers
+          python retrieve.py
       - name: "upload artifact"
         uses: actions/upload-artifact@v2
         with:
