@@ -111,6 +111,11 @@ def retrieve_mono():
 # %% [markdown]
 # ### Multithread
 
+# %% [markdown]
+# - scrapping d'environ 5500 pages
+# - ~5 minutes sur mbp à Ségur
+# - ~20 minutes sur github action
+
 # %%
 def retrieve_multi():
     offers = thread_map(scrap, list(df['OfferID']))
