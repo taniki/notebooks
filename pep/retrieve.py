@@ -52,8 +52,8 @@ df['FirstPublicationDate'] = pd.to_datetime(df['FirstPublicationDate'])
 
 
 # %%
-def scrap(offer_id):
-    base_url = f"https://place-emploi-public.gouv.fr/offre-emploi/2021-{offer_id}/"
+def scrap(offer_id, save=False):
+    base_url = f"https://place-emploi-public.gouv.fr/offre-emploi/{offer_id}/"
     #print(base_url)
     
     req = requests.get(base_url)
@@ -70,6 +70,7 @@ def scrap(offer_id):
         return {
             'title': title.getText(),
             'content': content.getText(),
+            'id': offer_id,
             'url': base_url
         }
     else:
@@ -118,7 +119,8 @@ def retrieve_mono():
 
 # %%
 def retrieve_multi():
-    offers = thread_map(scrap, list(df['OfferID']))
+    offers = thread_map(scrap, list(df['Offer_Reference_']))
+    #pd.DataFrame([ o for o in offers if o != None ]).to_csv('offers/all.csv')
     selected = [ offer for offer in offers if offer != None and select(offer)]
     return selected
 
@@ -128,6 +130,9 @@ def retrieve_multi():
 
 # %%
 selected = retrieve_multi()
+
+# %%
+print("annonces sélectionnées : "+str(len(selected)))
 
 
 # %%
@@ -139,3 +144,17 @@ def save(offers):
 
 # %%
 save(selected)
+
+# %%
+select(scrap('MEF_2021-5172'))
+
+# %%
+all = pd.read_csv('offers/all.csv')
+
+# %%
+[ id for id in df['Offer_Reference_'] if id == 'MEF_2021-5172']
+
+# %%
+[ id for id in all['id'] if id == 'MEF_2021-5172']
+
+# %%
