@@ -26,6 +26,12 @@ jobs:
           cd pep
           mkdir -p offers
           python retrieve.py
+      - name: "upload on data.gouv.fr"
+        env:
+          DGFR_API_KEY: ${{secrets.DGFR_API_KEY}}
+        run: |
+          cd pep
+          python publish.py
       - name: "upload artifact"
         uses: actions/upload-artifact@v2
         with:
