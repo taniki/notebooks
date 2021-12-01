@@ -94,7 +94,7 @@ def scrap(offer_id, save=False):
         return None
 
 # test
-scrap("MEF_2021-5172")
+# scrap("MEF_2021-5172")
 
 
 # %%
