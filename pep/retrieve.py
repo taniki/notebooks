@@ -65,11 +65,27 @@ def scrap(offer_id, save=False):
         title = soup.find("h1", class_="single-title")
         #        print(title.getText())
 
-        content = soup.find("section", class_="single-offer-content")
+        content = soup.find("section", class_="single-offer-content").get_text()
         #        print(content.getText())
+
+        parts = soup.find_all("li", class_="offer-subtitle-section-part")
+        
+        org = None
+        dep = None
+        
+        for part in parts:
+            spans = part.find_all('span')
+            if (len(spans) >= 2):
+                if (spans[0].get_text() == "Employeur"):
+                    org = spans[1].get_text().strip()
+                elif (spans[0].get_text() == "Organisme de rattachement"):
+                    dep = spans[1].get_text().strip()
+        
         return {
             "title": title.getText(),
-            "content": content.getText(),
+            "content": content,
+            "organization": org,
+            "department": dep,
             "id": offer_id,
             "url": base_url,
         }
@@ -77,13 +93,16 @@ def scrap(offer_id, save=False):
         # print(f"💀 {base_url}")
         return None
 
+# test
+scrap("MEF_2021-5172")
+
 
 # %%
 def select(offer):
     fields = offer.keys()
 
     return any(
-        [keyword in offer[field].lower() for keyword in keywords for field in fields]
+        [keyword in offer[field].lower() for keyword in keywords for field in fields if offer[field] != None ]
     )
 
 
@@ -121,17 +140,23 @@ def retrieve_mono():
 
 # %%
 def retrieve_multi():
-    offers = thread_map(scrap, list(df["Offer_Reference_"]))
-    pd.DataFrame([o for o in offers if o != None]).to_csv("offers/all.csv")
-    selected = [offer for offer in offers if offer != None and select(offer)]
-    return selected
+    res = thread_map(scrap, list(df["Offer_Reference_"]))
+    offers = [o for o in res if o != None]
 
+    return offers
+
+
+# %%
+offers = retrieve_multi()
 
 # %% [markdown]
 # ## Persistence
 
 # %%
-selected = retrieve_multi()
+pd.DataFrame(offers).to_csv("offers/all.csv")
+
+# %%
+selected = [offer for offer in offers if offer != None and select(offer)]
 
 # %%
 print("annonces sélectionnées : " + str(len(selected)))
@@ -151,13 +176,12 @@ save(selected)
 select(scrap("MEF_2021-5172"))
 
 # %%
-all = pd.read_csv("offers/all.csv")
+len(offers)
 
 # %%
-len(all)
-
-# %%
-[id for id in all["id"] if id == "MEF_2021-5172"]
+[id for id in pd.DataFrame(offers)["id"] if id == "MEF_2021-5172"]
 
 # %%
 [id for id in df["Offer_Reference_"] if id == "MEF_2021-5172"]
+
+# %%

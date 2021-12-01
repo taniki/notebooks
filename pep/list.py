@@ -24,7 +24,7 @@ df = pd.read_csv('offers/latest.csv')
 content = ""
 
 for idx, offer in df.iterrows():
-    content += f'- [{offer["title"]}]({offer["url"]})\n'
+    content += f'- [{offer["department"]}/{offer["organization"]}] [{offer["title"]}]({offer["url"]})\n'
     
 md(content)
 
