@@ -68,11 +68,12 @@ def scrap(offer_id, save=False):
         content = soup.find("section", class_="single-offer-content").get_text()
         #        print(content.getText())
 
-        parts = soup.find_all("li", class_="offer-subtitle-section-part")
+        parts = soup.find_all("li") #, class_="offer-subtitle-section-part")
         
         org = None
         dep = None
-        
+        pubdate = None
+
         for part in parts:
             spans = part.find_all('span')
             if (len(spans) >= 2):
@@ -80,12 +81,15 @@ def scrap(offer_id, save=False):
                     org = spans[1].get_text().strip()
                 elif (spans[0].get_text() == "Organisme de rattachement"):
                     dep = spans[1].get_text().strip()
-        
+                elif (spans[0].get_text() == "Date de publication"):
+                    pubdate = spans[1].get_text().strip()
+                    
         return {
             "title": title.getText(),
             "content": content,
             "organization": org,
             "department": dep,
+            "publication_date": pubdate,
             "id": offer_id,
             "url": base_url,
         }
@@ -173,7 +177,7 @@ def save(offers):
 save(selected)
 
 # %%
-select(scrap("MEF_2021-5172"))
+scrap("MEF_2021-5172")
 
 # %%
 len(offers)
