@@ -41,6 +41,10 @@ keywords = [
     "data scientist",
     "data analyst",
     "analyste de données",
+    "data engineer",
+    "ingénieur data",
+    "ingénieur de données",
+    "ingénieur données",
     "machine learning",
     "intelligence artificielle",
 ]
