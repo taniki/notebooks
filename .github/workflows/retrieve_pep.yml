@@ -32,6 +32,12 @@ jobs:
         run: |
           cd pep
           python publish.py
+      - name: "rebuild job board"
+        env:
+          REBUILD: ${{secrets.REBUILD}}
+        run: |
+          cd pep
+          python rebuild_jobboard.py
       - name: "upload artifact"
         uses: actions/upload-artifact@v2
         with:
