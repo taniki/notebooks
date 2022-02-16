@@ -54,6 +54,12 @@ df = pd.read_csv(source, sep=";")
 
 df["FirstPublicationDate"] = pd.to_datetime(df["FirstPublicationDate"])
 
+# %%
+df.head()
+
+# %%
+df["Offer_Reference_"]
+
 
 # %%
 def scrap(offer_id, save=False):
@@ -102,7 +108,7 @@ def scrap(offer_id, save=False):
         return None
 
 # test
-# scrap("MEF_2021-5172")
+scrap("2022-788047")
 
 
 # %%
@@ -181,7 +187,7 @@ def save(offers):
 save(selected)
 
 # %%
-scrap("MEF_2021-5172")
+scrap("2022-788047")
 
 # %%
 len(offers)
