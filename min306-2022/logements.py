@@ -27,8 +27,8 @@ df.head()
 df.shape
 
 # %% [markdown]
-# source : https://www.insee.fr/fr/statistiques/fichier/5542867/RP2018_LOGEMTZA_csv.zip
-# dictionnaire des variables : https://www.insee.fr/fr/statistiques/5542867?sommaire=5395764#dictionnaire
+# - source : https://www.insee.fr/fr/statistiques/fichier/5542867/RP2018_LOGEMTZA_csv.zip
+# - dictionnaire des variables : https://www.insee.fr/fr/statistiques/5542867?sommaire=5395764#dictionnaire
 
 # %% [markdown]
 # ## À faire
@@ -39,6 +39,6 @@ df.shape
 #     - [ ] faire un indicateur pour classer les différents arrondissements
 # - [ ] exporter en CSV et le mettre sur data.gouv.fr
 # - [ ] récupérer le profil type des habitants de logements sociaux (python ou observable)
-# - [ ] voir l'impact sur le profil sociodémographique si on ajoute `n` logements sociaux (ex : `population existante + n x profil` (python ou observable)
+# - [ ] voir l'impact sur le profil sociodémographique si on remplit les logements vacants avec le profil socio-démographique des quartiers les plus pauvres (python ou observable)
 
 # %%
