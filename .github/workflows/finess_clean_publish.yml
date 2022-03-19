@@ -1,0 +1,45 @@
+---
+name: retrieve job offers
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+jobs:
+  scrap_save:
+    name: "retrieve and save"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - uses: "actions/checkout@v2"
+      - uses: "actions/setup-python@v2"
+        with:
+          python-version: "3.9"
+      - name: "dependencies"
+        run: |
+          pip install -r pep/requirements.txt
+      - name: "execute"
+        env:
+          PEP_INDEX: ${{secrets.PEP_INDEX}}
+        run: |
+          cd pep
+          mkdir -p offers
+          python retrieve.py
+      - name: "upload on data.gouv.fr"
+        env:
+          DGFR_API_KEY: ${{secrets.DGFR_API_KEY}}
+        run: |
+          cd pep
+          python publish.py
+      - name: "rebuild job board"
+        env:
+          REBUILD: ${{secrets.REBUILD}}
+        run: |
+          cd pep
+          python rebuild_jobboard.py
+      - name: "upload artifact"
+        uses: actions/upload-artifact@v2
+        with:
+          name: last-offers
+          path: pep/offers/latest.csv

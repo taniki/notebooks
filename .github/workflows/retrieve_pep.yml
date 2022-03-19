@@ -1,5 +1,5 @@
 ---
-name: retrieve job offers
+name: [finess] clean and publish
 
 on:
   schedule:
@@ -19,27 +19,18 @@ jobs:
       - name: "dependencies"
         run: |
           pip install -r pep/requirements.txt
-      - name: "execute"
-        env:
-          PEP_INDEX: ${{secrets.PEP_INDEX}}
+      - name: "retrieve and clean"
         run: |
-          cd pep
-          mkdir -p offers
-          python retrieve.py
+          cd finess
+          python clean.py
       - name: "upload on data.gouv.fr"
         env:
           DGFR_API_KEY: ${{secrets.DGFR_API_KEY}}
         run: |
-          cd pep
-          python publish.py
-      - name: "rebuild job board"
-        env:
-          REBUILD: ${{secrets.REBUILD}}
-        run: |
-          cd pep
-          python rebuild_jobboard.py
+          cd finess
+          python publish-datagouvfr.py
       - name: "upload artifact"
         uses: actions/upload-artifact@v2
         with:
-          name: last-offers
-          path: pep/offers/latest.csv
+          name: finess-clean.latest.csv
+          path: finess-clean.csv
