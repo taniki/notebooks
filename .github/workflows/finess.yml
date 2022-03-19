@@ -33,4 +33,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: finess-clean.latest.csv
-          path: finess-clean.csv
+          path: finess/finess-clean.csv
