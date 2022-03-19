@@ -1,5 +1,5 @@
 ---
-name: [finess] clean and publish
+name: "[finess] clean and publish"
 
 on:
   schedule:
