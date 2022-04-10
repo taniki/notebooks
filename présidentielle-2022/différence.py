@@ -17,7 +17,7 @@
 import pandas as pd
 
 # %%
-pd.set_option("display.float_format", lambda x: '{:,.2f}'.format(x).replace(",", " "))
+pd.set_option("display.float_format", lambda x: '{:,.0f}'.format(x).replace(",", " "))
 
 # %%
 df = (pd
@@ -25,11 +25,12 @@ df = (pd
         thousands=" ",
         decimal=",")
     [1]
-    .assign(**{
-            "diff": lambda df_: (df_["Voix"]
-                .rolling(window=2)
-                .apply(lambda s : -(s.iloc[0] - s.iloc[1])))
-    })
+    .assign(
+        diff = lambda df_: (df_["Voix"]
+            .rolling(window=2)
+            .apply(lambda s : -(s.iloc[0] - s.iloc[1]))
+        )
+    )
 )
 
 df
