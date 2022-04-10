@@ -17,6 +17,9 @@
 import pandas as pd
 
 # %%
+pd.set_option("display.float_format", lambda x: '{:,.2f}'.format(x).replace(",", " "))
+
+# %%
 df = (pd
     .read_html("https://www.resultats-elections.interieur.gouv.fr/presidentielle-2022/FE.html",
         thousands=" ",
