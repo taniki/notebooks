@@ -38,6 +38,12 @@ df = (pd
 
 df
 
+
+# %%
+def fmt_pct(x):
+    return '{:,.2%}'.format(x)
+
+
 # %%
 df.dtypes
 
@@ -45,9 +51,11 @@ df.dtypes
 url_2017 = "https://www.interieur.gouv.fr/Elections/Les-resultats/Presidentielles/elecresult__presidentielle-2017/(path)/presidentielle-2017//FE.html"
 
 df_2017 = (pd
-    .read_html(url_2017, encoding="utf-8",
+    .read_html(
+        url_2017, encoding="utf-8",
         thousands=" ",
-        decimal=",",)
+        decimal=","
+    )
     [2]
 )
 
@@ -64,9 +72,19 @@ df_2017
     .set_index("Liste des candidats")
     .style
         .format(thousands=" ",
-            formatter={'pct': '{:,.2%}'.format}
+            formatter={'pct': fmt_pct}
 #            formatter = {('difference'): lambda x: "🔼 "+str(x) if x > 0 else "🔽 "+str(x) }
         )
 )
+
+# %%
+base_rate = 35419227/37003728 - 1
+
+fmt_pct(base_rate)
+
+# %%
+base_rate_inscrits = 47311922/47568693 - 1
+
+fmt_pct(base_rate_inscrits)
 
 # %%
